@@ -1,0 +1,108 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.heading {
+	margin: 1rem 0;
+	transform: scale(0.9);
+	transition: all 0.5s;
+	color: #555;
+}
+
+.heading:hover {
+	color: #3e00ff;
+	transform: scale(1.2);
+	transform: rotate(5deg);
+}
+
+button {
+	font-size: 1rem;
+	padding: 0.5rem;
+	border: none;
+	margin: 1rem 1rem 2rem;
+	background-color: #f0f0f0;
+	box-shadow: 3px 3px 8px #ccc, -3px -3px 8px #fff;
+	border-radius: 7px;
+	color: #3e00ff;
+	font-weight: bold;
+}
+
+button:hover,
+button:active {
+	box-shadow: 3px 3px 8px #ccc, -3px -3px 8px #fff, inset 3px 3px 8px #ccc,
+		inset -3px -3px 8px #fff;
+}
+
+.content {
+	width: 600px;
+	padding: 0.5rem;
+	margin: 0 auto;
+	text-align: left;
+	background-color: #f3f3f3;
+	border-radius: 5px;
+	box-shadow: 3px 3px 8px #ccc, -3px -3px 8px #fff;
+	color: #444;
+}
+
+.content:hover {
+	box-shadow: 3px 3px 8px #ccc, -3px -3px 8px #fff, inset 3px 3px 8px #ccc,
+		inset -3px -3px 8px #fff;
+}
+
+.content h3 {
+	padding: 1rem;
+	line-height: 1.1;
+	word-spacing: 1px;
+}
+
+.fas {
+	color: #3e00ff;
+	padding: 0.5rem;
+}
+
+footer {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	font-size: 0.8rem;
+	color: #aaa;
+	font-weight: 600;
+	padding-bottom: 1rem;
+}
+
+@media only screen and (max-width: 900px) {
+	.content {
+		width: 100%;
+	}
+	button {
+		margin: 0.5rem;
+	}
+	.types {
+		margin-bottom: 1rem;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.heading {
+		font-size: 1.5rem;
+	}
+	.content {
+		width: 97%;
+		padding: 0.3rem;
+	}
+	button {
+		margin: 0.4rem;
+		font-size: 0.8rem;
+	}
+	.content h3 {
+		font-size: 0.9rem;
+		font-weight: 600;
+	}
+}
