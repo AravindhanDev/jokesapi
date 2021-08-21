@@ -71,7 +71,7 @@ footer {
 	width: 100%;
 	position: absolute;
 	bottom: 0;
-	font-size: 1rem;
+	font-size: 0.8rem;
 	color: #aaa;
 	font-weight: 600;
 	padding-bottom: 1rem;
@@ -99,11 +99,10 @@ footer {
 	}
 	button {
 		margin: 0.4rem;
-		font-size: 1rem;
-		padding: 1rem;
+		font-size: 0.8rem;
 	}
 	.content h3 {
-		font-size: 1.3rem;
+		font-size: 0.9rem;
 		font-weight: 600;
 	}
 }

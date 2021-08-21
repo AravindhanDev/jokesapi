@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.js": "/jokesapi/static/js/main.5832b287.chunk.js",
+    "main.js.map": "/jokesapi/static/js/main.5832b287.chunk.js.map",
+    "runtime-main.js": "/jokesapi/static/js/runtime-main.31e74e6d.js",
+    "runtime-main.js.map": "/jokesapi/static/js/runtime-main.31e74e6d.js.map",
+    "static/js/2.cb5930df.chunk.js": "/jokesapi/static/js/2.cb5930df.chunk.js",
+    "static/js/2.cb5930df.chunk.js.map": "/jokesapi/static/js/2.cb5930df.chunk.js.map",
+    "index.html": "/jokesapi/index.html",
+    "precache-manifest.ca67da76227406c43f8bca0d0679b58a.js": "/jokesapi/precache-manifest.ca67da76227406c43f8bca0d0679b58a.js",
+    "service-worker.js": "/jokesapi/service-worker.js"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.31e74e6d.js",
+    "static/js/2.cb5930df.chunk.js",
+    "static/js/main.5832b287.chunk.js"
+  ]
+}
